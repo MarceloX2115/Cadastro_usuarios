@@ -4,15 +4,6 @@
 Este projeto é uma aplicação de **console em Java** que implementa as operações básicas de **CRUD (Create, Read, Update, Delete)** em um banco de dados NoSQL **MongoDB Atlas**.  
 O diferencial do projeto é a utilização do **Redis Cloud** para implementar o padrão de cache **Cache Aside** no método de listagem (**READ**), demonstrando uma otimização de performance.
 
----
-
-### 📘 Informações Acadêmicas
-- **Disciplina:** Banco de Dados Avançados  
-- **Professor(a):** [Nome do Professor(a)]  
-- **Aluno(a):** [Seu Nome Completo]
-
----
-
 ## 💻 Tecnologias Utilizadas
 
 | Tecnologia | Função |
@@ -37,7 +28,7 @@ Certifique-se de que a string de conexão do seu cluster MongoDB Atlas esteja co
 datalink.MongoConnection.java
 ```
 
-- **Usuário de acesso:** `marcelosampaio0987_db_user` (configurado no MongoDB Atlas)  
+- **Usuário de acesso:** `X` (configurado no MongoDB Atlas)  
 - **Acesso à rede:** o IP do ambiente de execução deve estar liberado no painel do Atlas.
 
 ---
@@ -63,29 +54,6 @@ Este projeto utiliza o **Maven** para gerenciar a compilação e execução.
 - Apache Maven instalado
 
 ---
-
-### 🪜 Passos de Execução
-
-#### 1. Clonar o Repositório
-```bash
-git clone [LINK_DO_SEU_REPOSITORIO]
-cd mongodb-redis-crud
-```
-
-#### 2. Compilar e Empacotar o Projeto
-```bash
-mvn clean install
-```
-
-#### 3. Executar a Aplicação
-```bash
-mvn exec:java -Dexec.mainClass="datalink.App"
-```
-
-> 💬 **Observação:** o menu de console interativo será iniciado automaticamente.
-
----
-
 ## 💡 Demonstração da Lógica de Cache (Cache Aside)
 
 A principal funcionalidade avançada está no método de **listagem (Opção 2)**.  
@@ -127,7 +95,7 @@ Isso garante que os dados estejam sempre atualizados.
 ---
 
 ## 🎬 Link do Vídeo Explicativo
-[INSERIR AQUI O LINK DO SEU VÍDEO 🎥 (YouTube, Google Drive, etc.)]
+https://drive.google.com/file/d/1a-WXCObusvdVqVUuHyr9GP9gBxdTQsr0/view?usp=drivesdk
 
 O vídeo deve demonstrar:
 - A execução e navegação pelo menu interativo  
